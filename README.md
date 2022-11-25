@@ -10,7 +10,14 @@
 ##### In a queue, the first-in-first-out rule is implemented whereas, in a priority queue, the values are removed on the basis of priority. The element with the highest priority is removed first.
 ##### Priority queue can be implemented using an array, a linked list, a heap data structure, or a binary search tree. Among these data structures, heap data structure provides an efficient implementation of priority queues.
 ##### MAX-HEAP: Always store the data in descreasing order
-
+# Algorithm for Favorite Contact list
+a. Create a class PERSON with attribute Name, Phone Number and Frequency 
+b. Make an Array of Person Object
+c. Populate the array with data
+d. Make a menu driven program using switch case
+e. Each time a person is called its frequency get incremented by 1
+f. Using C++ STL save element of the Peron Array in a Priority Queue
+d. Print the Priority will get a required Output as Favorite List
 # 1)Inserting an Element into the Priority Queue
 ##### a) Insert the new element at the end of the tree.
 ##### ![image](https://user-images.githubusercontent.com/102198997/203897722-0e3d3faf-3658-424a-ada8-c69161a65357.png)
