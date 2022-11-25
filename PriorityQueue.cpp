@@ -2,8 +2,7 @@
 #include <vector>
 using namespace std;
 
-
-
+// IMPLEMENTATION OF PRIORITY QUEUE USING MAX_HEAP
 void heapify(vector<int> &PQ, int i) {
   int size = PQ.size();
   int largest = i;
