@@ -12,7 +12,7 @@ public:
  
     Person()
     {
-
+         //default constructor
     }
     void setAttribute(string name,string Phone)
     {
