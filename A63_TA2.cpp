@@ -27,8 +27,8 @@ bool operator<(const Person& p1, const Person& p2)
 {
  
     // this will return true when second person
-    // has greater height. Suppose we have p1.height=5
-    // and p2.height=5.5 then the object which
+    // has greater frequency. Suppose we have p1.frequency=5
+    // and p2.frequency=6 then the object which
     // have max height will be at the top(or
     // max priority)
     return p1.freq < p2.freq;
@@ -68,6 +68,7 @@ int main()
         cin>>callnow;
         if(callnow>0 && callnow<=n)
         {
+            //each time when we are calling a person its frequency is incremented by 1
             p[callnow-1].freq +=1;
             cout<<"Calling ......"<<p[callnow-1].fname<<"\n\n";
             
