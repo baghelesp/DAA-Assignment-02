@@ -34,5 +34,9 @@
 ###### c) And we are using frequency as a piority 
 ###### d) As by default Priority Queue implemented using Max-Heap maintains a data in descending order of their priority therefore, we get a desired result that is "Favorite Contact list" as a output.
 ###### ![image](https://user-images.githubusercontent.com/102198997/203898720-a475564f-c9f3-4d06-b1db-f613d00810a0.png)
+#Priority Queue Applications
 
-
+##### Dijkstra's algorithm
+##### for implementing stack
+##### for load balancing and interrupt handling in an operating system
+##### for data compression in Huffman code
