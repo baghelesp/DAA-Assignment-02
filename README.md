@@ -11,13 +11,13 @@
 ##### Priority queue can be implemented using an array, a linked list, a heap data structure, or a binary search tree. Among these data structures, heap data structure provides an efficient implementation of priority queues.
 ##### MAX-HEAP: Always store the data in descreasing order
 # Algorithm for Favorite Contact list
-a. Create a class PERSON with attribute Name, Phone Number and Frequency 
-b. Make an Array of Person Object
-c. Populate the array with data
-d. Make a menu driven program using switch case
-e. Each time a person is called its frequency get incremented by 1
-f. Using C++ STL save element of the Peron Array in a Priority Queue
-d. Print the Priority will get a required Output as Favorite List
+##### a. Create a class PERSON with attribute Name, Phone Number and Frequency => Class Person{ public: string name, string PhoneNo, int freq=0}
+##### b. Make an Array of Person Object => Person P[10]
+##### c. Populate the array with data => P[0].setAttribute("Shivam Baghele","9263784994") => freq is by default set to 0
+##### d. Make a menu driven program using switch case 
+##### e. Each time a person is called its frequency get incremented by 1 => P[i].freq +=1;
+##### f. Using C++ STL save element of the Peron Array in a Priority Queue => piority_queue< Person> PQ;
+##### d. Print the Priority will get a required Output as Favorite List => while( !PQ.isEmpty){ print( PQ.top); PQ.pop() }
 # 1)Inserting an Element into the Priority Queue
 ##### a) Insert the new element at the end of the tree.
 ##### ![image](https://user-images.githubusercontent.com/102198997/203897722-0e3d3faf-3658-424a-ada8-c69161a65357.png)
